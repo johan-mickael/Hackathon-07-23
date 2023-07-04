@@ -35,9 +35,9 @@ Nous utiliserons cet [**URL de base**](https://31v0z6iw4g.execute-api.eu-west-3.
         - `Content-Type: application/json`
         - `X-Amz-Target: AWSInsightsIndexService.GetCostAndUsage`
     - Payload:
-    ```json
+    ```JSON
     {
-        // Format de la date: "yyyy-mm-dd"
+        # Format de la date: "yyyy-mm-dd"
         "TimePeriod": {
             // Début de la période à récupérer
             "Start": "[DATE]", 
