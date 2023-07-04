@@ -20,9 +20,9 @@ Nous utiliserons cet [**URL de base**](https://31v0z6iw4g.execute-api.eu-west-3.
     {
         // Format de la date: "yyyy-mm-dd"
         "TimePeriod": {
-            // Début de la période à récupérer
+            // Début de la période à récupérer (min: 2022-01-01)
             "Start": "[DATE]", 
-            // Fin de la période à récupérer
+            // Fin de la période à récupérer (max: 2022-03-31)
             "End": "[DATE]"
         }
     }
